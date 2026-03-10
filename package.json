@@ -1,0 +1,26 @@
+{
+  "name": "@TimeVan/libs",
+  "version": "2.0.13",
+  "description": "Open Whisper Systems' libsignal for Node.js",
+  "main": "index.js",
+  "keywords": [
+    "signal",
+    "whispersystems",
+    "crypto"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "curve25519-js": "^0.0.4",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "protobufjs": "6.8.8"
+  },
+  "files": [
+    "index.js",
+    "src/*"
+  ],
+  "devDependencies": {
+    "eslint": "6.0.1"
+  }
+}
